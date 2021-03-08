@@ -231,7 +231,7 @@
                         <div class="md:pr-12">
                             <div
                                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-50">
-                                <i class="fa fa-btc" aria-hidden="true"></i>
+                                <i class="fab fa-btc text-xl" aria-hidden="true"></i>
                             </div>
                             <h3 class="text-3xl font-semibold">CRIPTOACTIVOS</h3>
                             <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -402,7 +402,7 @@
                     <div
                         class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-300"
                     >
-                        <i class="fas fa-rocket text-xl"></i>
+                        <i class="fas fa-money-check-alt text-xl"></i>
                     </div>
                     <h2 class="text-white font-semibold text-5xl">Conozca nuestros Planes</h2>
                     <p class="mt-4 text-lg text-gray-300">
@@ -732,7 +732,7 @@
                     <div
                         class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-300"
                     >
-                        <i class="fas fa-rocket text-xl"></i>
+                        <i class="fas fa-money-bill text-xl"></i>
                     </div>
                     <h2 class="text-white font-semibold text-5xl">Plan de recompensa</h2>
                     <p class="mt-4 text-lg text-gray-300">
