@@ -5,7 +5,7 @@
          class="container px-12 py-12 relative pt-24 pb-32 flex content-center items-center justify-center"
          style="min-height: 75vh;">
         <div class="absolute top-0 w-full h-full bg-center bg-cover"
-             style='background-image: url("{{ asset('storage/material/business_0.jpg') }}");'>
+             style='background-image: url("{{ asset('images/landing/business_0.jpg') }}");'>
             <span class="w-full h-full absolute opacity-75 bg-black"></span>
         </div>
         <div class="container relative mx-auto">
@@ -146,7 +146,7 @@
                     >
                         <img
                             alt="..."
-                            src="{{ asset('storage/material/business_1.jpg') }}"
+                            src="{{ asset('images/landing/business_1.jpg') }}"
                             class="w-full align-middle rounded-t-lg"
                         />
                         <blockquote class="relative p-8 mb-4">
@@ -201,7 +201,7 @@
                         >
                             <img
                                 alt="..."
-                                src="{{ asset('storage/material/business_4.jpg') }}"
+                                src="{{ asset('images/landing/business_4.jpg') }}"
                                 class="w-full align-middle rounded-t-lg"
                             />
                             <blockquote class="relative p-8 mb-4">
@@ -238,7 +238,8 @@
                                 Los criptoactivos son activos virtuales. Hoy en día existen cientos de criptoactivos,
                                 entre los cuales el pionero y más conocido es el Bitcoin. Cada uno de ellos trabaja
                                 basandose en su propio conjunto de reglas, definidas por sus creadores y
-                                desarrolladores.
+                                desarrolladores.sales.psd
+                                business_3.psd
                             </p>
                             <ul class="list-none mt-6">
                                 <li class="py-2">
@@ -309,7 +310,7 @@
                     <div class="px-6">
                         <img
                             alt="..."
-                            src="{{ asset('storage/material/leader_big_1.png') }}"
+                            src="{{ asset('images/landing/leader_big_1.png') }}"
                             class="shadow-lg rounded-full max-w-full mx-auto"
                             style="max-width: 120px;"
                         />
@@ -337,7 +338,7 @@
                     <div class="px-6">
                         <img
                             alt="..."
-                            src="{{ asset('storage/material/leader_big_2.png') }}"
+                            src="{{ asset('images/landing/leader_big_2.png') }}"
                             class="shadow-lg rounded-full max-w-full mx-auto"
                             style="max-width: 120px;"
                         />
@@ -365,7 +366,7 @@
                     <div class="px-6">
                         <img
                             alt="..."
-                            src="{{ asset('storage/material/leaders_3.png') }}"
+                            src="{{ asset('images/landing/leaders_3.png') }}"
                             class="shadow-lg rounded-full max-w-full mx-auto"
                             style="max-width: 120px;"
                         />
@@ -395,7 +396,7 @@
 
     {{-- our plans --}}
     <section class="pt-20 pb-2 bg-fixed" id="plains"
-             style='background-image: url("{{ asset('storage/material/business_3.jpg') }}");'>
+             style='background-image: url("{{ asset('images/landing/business_3.jpg') }}");'>
         <div class="container mx-auto px-4 ">
             <div class="flex flex-wrap justify-center text-center mb-24">
                 <div class="w-full lg:w-6/12 px-4">
@@ -725,7 +726,7 @@
     </section>
 
     <section class="pt-20 pb-2 bg-fixed" id=""
-             style='background-image: url("{{ asset('storage/material/business_3.jpg') }}");'>
+             style='background-image: url("{{ asset('images/landing/business_3.jpg') }}");'>
         <div class="container mx-auto px-4 ">
             <div class="flex flex-wrap justify-center text-center mb-24">
                 <div class="w-full lg:w-6/12 px-4">
@@ -770,7 +771,7 @@
                         <img
                             alt="..."
                             class="max-w-full rounded-lg shadow-lg"
-                            src="{{ asset('storage/material/sales.png') }}"
+                            src="{{ asset('images/landing/sales.png') }}"
                         />
                     </div>
                 </div>
@@ -889,7 +890,7 @@
             </div>
             <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                     src="{{ asset('storage/material/business_0.jpg') }}"
+                     src="{{ asset('images/landing/business_0.jpg') }}"
                      alt="">
             </div>
         </div>
