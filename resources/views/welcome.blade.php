@@ -1080,9 +1080,9 @@
                 <div class="w-full lg:w-6/12 px-4">
                     <a href="/" class="flex-shrink-0 flex items-center">
                         <img class="block lg:hidden h-8 w-auto"
-                             src="{{  Storage::url('public/logos/trust-logo.png') }}" alt="Workflow">
+                             src="{{  asset('images/trust-logo.png') }}" alt="Workflow">
                         <img class="hidden lg:block h-8 w-auto"
-                             src="{{  Storage::url('public/logos/trust-logo.png') }}"
+                             src="{{  asset('images/trust-logo.png') }}"
                              alt="trust">
                     </a>
                     <h5 class="text-lg mt-0 mb-2 text-gray-700">
