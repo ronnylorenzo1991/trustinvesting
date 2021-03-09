@@ -51,14 +51,16 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="flex">
                 <a href="{{ route('language', 'es') }}"
                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                    <i class="fa fa-flag"></i> es
+                    <img class="h-3 w-auto"
+                         src="{{ asset('images/spanish.png') }}" alt="spanish">
                 </a>
                 <a href="{{ route('language', 'en') }}"
                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                    <i class="fa fa-flag"></i> en
+                    <img class="h-3 w-auto"
+                         src="{{ asset('images/english.png') }}" alt="english">
                 </a>
             </div>
         </div>
