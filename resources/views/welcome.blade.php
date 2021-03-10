@@ -19,12 +19,12 @@
                             Operamos en la gestión de criptoactivos en los mercados más atrevidos, y todavía podemos
                             contar con un alto índice de liquidez. No pierda la oportunidad de unirse ahora mismo
                         </p>
-{{--                        hidden link--}}
-{{--                        <div class="inline-block mr-2 mt-2">--}}
-{{--                            <a href="https://trustinvesting.com/yassercuba/unete"--}}
-{{--                               class="focus:outline-none text-white text-sm py-2.5 px-5 rounded-md bg-green-500 hover:bg-green-600 hover:shadow-lg">Únete--}}
-{{--                                Ya</a>--}}
-{{--                        </div>--}}
+                        {{--                        hidden link--}}
+                        {{--                        <div class="inline-block mr-2 mt-2">--}}
+                        {{--                            <a href="https://trustinvesting.com/yassercuba/unete"--}}
+                        {{--                               class="focus:outline-none text-white text-sm py-2.5 px-5 rounded-md bg-green-500 hover:bg-green-600 hover:shadow-lg">Únete--}}
+                        {{--                                Ya</a>--}}
+                        {{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -320,15 +320,17 @@
                                 Director de Marketing
                             </p>
                             <div class="mt-6">
-                                <a href="https://www.facebook.com/fabiano.delima.54966" target="_blank"
-                                   class="btn bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-facebook-f"></i></a
-                                >
-                                <a href="https://www.instagram.com/fabianolorite/" target="_blank"
-                                   class="bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://www.facebook.com/fabiano.delima.54966" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-blue-600">
+                                        <i class="fab fa-facebook-f text-white text-xl"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/fabianolorite/" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-red-600">
+                                        <i class="fab fa-instagram text-white text-xl"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -348,15 +350,17 @@
                                 CEO
                             </p>
                             <div class="mt-6">
-                                <a href="https://www.facebook.com/diego.chaves.1291" target="_blank"
-                                   class="btn bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-facebook-f"></i></a
-                                >
-                                <a href="https://www.instagram.com/diegochavesceo/" target="_blank"
-                                   class="bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://www.facebook.com/diego.chaves.1291" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-blue-600">
+                                        <i class="fab fa-facebook-f text-white text-xl"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/diegochavesceo/" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-red-600">
+                                        <i class="fab fa-instagram text-white text-xl"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -376,15 +380,17 @@
                                 Director de Tecnologías
                             </p>
                             <div class="mt-6">
-                                <a href="https://www.facebook.com/profile.php?id=100015499410142" target="_blank"
-                                   class="btn bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-facebook-f"></i></a
-                                >
-                                <a href="https://www.instagram.com/claudio_anrry/" target="_blank"
-                                   class="btn bg-red-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 py-1"
-                                   type="button">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://www.facebook.com/profile.php?id=100015499410142" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-blue-600">
+                                        <i class="fab fa-facebook-f text-white text-xl"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/claudio_anrry/" target="_blank">
+                                    <div
+                                        class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mb-10 shadow-lg rounded-full bg-red-600">
+                                        <i class="fab fa-instagram text-white text-xl"></i>
+                                    </div>
                                 </a>
                             </div>
                         </div>
