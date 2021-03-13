@@ -121,7 +121,7 @@ class PostController extends Controller
                 'image'       => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             ]);
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('images/posts', $imageName);
+            $request->image->storeAs('storage/images/posts', $imageName);
             $image = new Image;
             $image->url = 'storage/images/posts/' . $imageName;
             Storage::delete($post->image->url);
