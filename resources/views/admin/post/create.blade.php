@@ -51,7 +51,7 @@
             </div>
             <div class="form-group">
                 {!! Form::label('extract', 'Extract') !!}
-                {!! Form::text('extract', null, ['class' => 'form-control', 'placeholder' => 'insert extract']) !!}
+                {!! Form::textarea('extract', null, ['class' => 'form-control', 'placeholder' => 'insert extract']) !!}
                 @error('extract')
                 <span class="text-danger">
                      {{ $message }}
@@ -60,7 +60,7 @@
             </div>
             <div class="form-group">
                 {!! Form::label('body', 'Body') !!}
-                {!! Form::text('body', null, ['class' => 'form-control', 'placeholder' => 'insert body']) !!}
+                {!! Form::textarea('body', null, ['class' => 'form-control', 'placeholder' => 'insert body']) !!}
                 @error('body')
                 <span class="text-danger">
                      {{ $message }}
@@ -89,6 +89,7 @@
 
 @section('js')
     <script src="{{asset('vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.js')}}"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/26.0.0/classic/ckeditor.js"></script>
     <script>
         $(document).ready(function () {
             $('#name').stringToSlug({
@@ -97,5 +98,16 @@
                 space: '-',
             })
         })
+
+        ClassicEditor
+            .create( document.querySelector( '#extract' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+        ClassicEditor
+            .create( document.querySelector( '#body' ) )
+            .catch( error => {
+                console.error( error );
+            } );
     </script>
 @stop
