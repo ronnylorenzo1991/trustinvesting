@@ -31,9 +31,9 @@ class ImageController extends Controller
     {
         if ($request->hasFile('image')) {
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('publics', $imageName);
+            $request->image->storeAs('images/gallery/', $imageName);
             $image = new Image;
-            $image->url = 'publics/' . $imageName;
+            $image->url = 'images/gallery/' . $imageName;
             $image->save();
             return redirect(route('admin.image.index'))->with('info', 'the image was added');
         }

@@ -9,7 +9,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div class="lg:col-span-2">
                 <figure>
-                    <img class="w-full h-80 object-cover object-center" src="{{ Storage::url($post->image->url) }}">
+                    <img class="w-full h-80 object-cover object-center" src="{{ asset($post->image->url) }}">
                 </figure>
                 <div class="text-base text-gray-600 mt-4">
                     {{ $post->body }}
@@ -23,7 +23,7 @@
                             <li class="mb-4">
                                 <a class="flex" href="{{ route('post.show', $rpost) }}">
                                     <img class="w-36 h-20 object-cover object-center"
-                                         src="{{ Storage::url($rpost->image->url) }}">
+                                         src="{{ asset($rpost->image->url) }}">
                                     <span class="ml-2 text-gray-600">
                                       {{ $rpost->name }}
                                     </span>

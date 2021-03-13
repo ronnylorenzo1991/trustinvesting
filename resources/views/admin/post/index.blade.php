@@ -30,7 +30,7 @@
                         <td>{{ $post->id }}</td>
                         <td>
                             <img width="80px"
-                                 src="{{ Storage::url($post->image->url  ?? '' ) }}">
+                                 src="{{ asset($post->image->url  ?? '' ) }}">
                         </td>
                         <td>{{ $post->name }}</td>
                         <td>

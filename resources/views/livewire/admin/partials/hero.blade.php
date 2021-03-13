@@ -14,7 +14,7 @@
                                        value="{{ $image->url }}"
                                        wire:model="newSection.settings.imageurl">
                                 <label class="custom-control-label" for="ck2{{ $loop->iteration }}">
-                                    <img src="{{ Storage::url($image->url) }}" alt="#" class="img-fluid">
+                                    <img src="{{ asset($image->url) }}" alt="#" class="img-fluid">
                                 </label>
                             </div>
                         </div>

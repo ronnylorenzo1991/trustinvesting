@@ -37,7 +37,7 @@
             @foreach ($images as $image)
                 <div class="col-md">
                     <div class="card" style="width: 18rem;">
-                        <img src="{{ Storage::url($image->url) }}" class="card-img-top" alt="">
+                        <img src="{{ asset($image->url) }}" class="card-img-top" alt="">
                         <div class="card-footer">
                             <div class="float-right">
                                 @can('admin.posts.delete')

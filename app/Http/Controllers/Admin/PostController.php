@@ -65,7 +65,7 @@ class PostController extends Controller
             $imageName = time().'.'.$request->image->extension();
             $request->image->storeAs('posts', $imageName);
             $image = new Image;
-            $image->url = 'posts/' . $imageName;
+            $image->url = 'images/blog/post/' . $imageName;
         }
 
         $post = Post::create($request->all());
@@ -123,7 +123,7 @@ class PostController extends Controller
             $imageName = time().'.'.$request->image->extension();
             $request->image->storeAs('posts', $imageName);
             $image = new Image;
-            $image->url = 'posts/' . $imageName;
+            $image->url = 'images/blog/post/' . $imageName;
             Storage::delete($post->image->url);
             $post->image->delete();
             $post->image()->save($image ?: '');
