@@ -125,7 +125,7 @@ class LandingController extends Controller
             $post->image()->save($image ?: '');
         }
         $post->update($request->all());
-        $post->tags()->sync($request->get('tags'), );
+        $post->tags()->sync($request->get('tags'));
 
         return redirect(route('admin.post.index'))->with('info', 'the post was updated');
     }
