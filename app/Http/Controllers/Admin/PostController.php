@@ -63,7 +63,7 @@ class PostController extends Controller
         ]);
         if ($request->hasFile('image')) {
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('storage/images/posts/', $imageName);
+            $request->image->storeAs('images/posts', $imageName);
             $image = new Image;
             $image->url = 'storage/images/posts/' . $imageName;
         }
