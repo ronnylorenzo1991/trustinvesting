@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Storage::makeDirectory('posts');
+        Storage::makeDirectory('images/posts');
 
         $this->call(RoleSeeder::class);
         $this->call(UserSeeder::class);
