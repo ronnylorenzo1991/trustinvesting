@@ -22,7 +22,7 @@ class ImageFactory extends Factory
     public function definition()
     {
         return [
-            'url' => 'posts/banner-post- (' . rand(1,6) . ').jpg',
+            'url' => 'posts/' . $this->faker->image('public/storage/posts', 640, 480, null, false)
         ];
     }
 }
