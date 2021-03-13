@@ -63,9 +63,9 @@ class PostController extends Controller
         ]);
         if ($request->hasFile('image')) {
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('posts', $imageName);
+            $request->image->storeAs('storage/images/posts/', $imageName);
             $image = new Image;
-            $image->url = 'images/blog/post/' . $imageName;
+            $image->url = 'storage/images/posts/' . $imageName;
         }
 
         $post = Post::create($request->all());
@@ -121,9 +121,9 @@ class PostController extends Controller
                 'image'       => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             ]);
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('posts', $imageName);
+            $request->image->storeAs('images/posts', $imageName);
             $image = new Image;
-            $image->url = 'images/blog/post/' . $imageName;
+            $image->url = 'storage/images/posts/' . $imageName;
             Storage::delete($post->image->url);
             $post->image->delete();
             $post->image()->save($image ?: '');
