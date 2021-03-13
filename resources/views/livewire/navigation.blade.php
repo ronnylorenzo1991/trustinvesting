@@ -42,6 +42,8 @@
                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_leaders') }}</a>
                                 <a href="#plains"
                                    class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_plains') }}</a>
+                                <a href="{{ route('post.index') }}"
+                                   class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
                                 <div class="inline-block mr-2 mt-2">
                                     <a href="https://trustinvesting.com/yassercuba/unete"
                                        class="focus:outline-none text-white text-sm py-2 px-2 rounded-md bg-green-500 hover:bg-green-600 hover:shadow-lg capitalize">{{ trans('multi-leng.register') }}</a>

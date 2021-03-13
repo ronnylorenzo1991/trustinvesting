@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\PostController;
 
-Route::get('/{language}', function ($language) {
+Route::get('lang/{language}', function ($language) {
     Session::put('language',$language);
     return redirect('/');
 })->name('language');
