@@ -31,7 +31,7 @@ class ImageController extends Controller
     {
         if ($request->hasFile('image')) {
             $imageName = time().'.'.$request->image->extension();
-            $request->image->storeAs('storage/images/gallery', $imageName);
+            $request->image->storeAs('images/gallery', $imageName);
             $image = new Image;
             $image->url = 'storage/images/gallery/' . $imageName;
             $image->save();
