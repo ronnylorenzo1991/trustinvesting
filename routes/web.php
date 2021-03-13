@@ -4,13 +4,13 @@ use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\PostController;
 
 Route::get('lang/{language}', function ($language) {
-    Session::put('language',$language);
+    Session::put('language', $language);
     return redirect('/');
 })->name('language');
 
 Route::get('/', function () {
     return view('welcome');
-})->middleware('translate');
+})->middleware('translate')->name('home');
 
 Route::get('/blog', [PostController::class, 'index'])->name('post.index');
 
