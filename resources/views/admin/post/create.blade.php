@@ -9,6 +9,25 @@
     <div class="card">
         <div class="card-body">
             {!! Form::open(['route' => 'admin.post.store', 'enctype' => 'multipart/form-data']) !!}
+            <div class="row mb-3">
+                <div class="col">
+                    <div class="image-wrapper">
+                        <img id="picture" src="{{ asset('images/img_empty.png') }}">
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        {!! Form::label('label-image', 'Imagen que se mostrara en el pos') !!}
+                        <input type="file" name="image" id="file" class="form-control-file">
+                    </div>
+                    <p> Esta imagen debe conetner las siguientes caracteristicas</p>
+                    @error('imagid="picture" e')
+                    <span class="text-danger">
+                                {{ $message }}
+                    </span>
+                    @enderror
+                </div>
+            </div>
             <div class="form-group">
                 {!! Form::label('name', 'Name') !!}
                 {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'insert name']) !!}
@@ -37,12 +56,12 @@
                 @enderror
             </div>
             <div class="form-group">
-                {!! Form::label('label-tags', 'Tags') !!}
-                <select multiple="multiple" name="tags[]" class="form-control" id="sports">
-                    @foreach($tags as $tag)
-                        <option value="{{ $tag->id }}">{{ $tag->name }}</option>
-                    @endforeach
-                </select>
+                @foreach($tags as $tag)
+                    <label>
+                        {!! Form::checkbox('tags[]', 'Tags', null) !!}
+                        {{ $tag->name }}
+                    </label>
+                @endforeach
                 @error('tags')
                 <span class="text-danger">
                      {{ $message }}
@@ -67,14 +86,6 @@
                  </span>
                 @enderror
             </div>
-            <div class="form-group">
-                <input type="file" name="image" class="form-control">
-                @error('image')
-                <span class="text-danger">
-                     {{ $message }}
-                 </span>
-                @enderror
-            </div>
             {{ Form::hidden('user_id', Auth::user()->id) }}
             {!! Form::submit('Save', ['class'=>'btn btn-primary pull-right']) !!}
             {!! link_to_route('admin.post.index', $title = 'cancel', $parameters = [], $attributes = ['class'=>'btn btn-default pull-right']); !!}
@@ -85,6 +96,19 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
+    <style>
+        .image-wrapper {
+            position: relative;
+            padding-bottom: 50%;
+        }
+
+        .image-wrapper img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 @stop
 
 @section('js')
@@ -109,5 +133,16 @@
             .catch( error => {
                 console.error( error );
             } );
+        document.getElementById("file").addEventListener('change', changeImg);
+        function changeImg(event){
+            var file = event.target.files[0];
+
+            var reader = new FileReader();
+            reader.onload = (event) => {
+                document.getElementById("picture").setAttribute('src', event.target.result);
+            };
+
+            reader.readAsDataURL(file);
+        }
     </script>
 @stop
