@@ -348,10 +348,13 @@
                                 style="max-width: 120px;"
                             />
                         </div>
-                        <div class="pt-20 text-center">
+                        <div class="pt-10 text-center">
                             <h5 class="text-xl font-bold">Fabiano Lima</h5>
-                            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                            <h5 class="mt-1 text-sm text-gray-800 uppercase font-semibold italic">
                                 Director de Marketing
+                            </h5>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Empresario desde los 19 años, con conocimientos técnicos (know-how) en desarrollo y expansión de negocios en los diversos segmentos.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/fabiano.delima.54966" target="_blank">
@@ -380,10 +383,13 @@
                                 style="max-width: 120px;"
                             />
                         </div>
-                        <div class="pt-20 text-center">
+                        <div class="pt-10 text-center">
                             <h5 class="text-xl font-bold">Diego Chaves</h5>
-                            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                            <h5 class="mt-1 text-sm text-gray-800 uppercase font-semibold italic">
                                 CEO
+                            </h5>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Tiene una trayectoria de más de 10 años de experiencia en el Network Marketing, además de experiencia en desarrollo personal y gestión empresarial.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/diego.chaves.1291" target="_blank">
@@ -412,10 +418,13 @@
                                 style="max-width: 120px;"
                             />
                         </div>
-                        <div class="pt-20 text-center">
+                        <div class="pt-10 text-center">
                             <h5 class="text-xl font-bold">Claudio Barbosa</h5>
-                            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                Director de Tecnologías
+                            <h5 class="mt-1 text-sm text-gray-800 uppercase font-semibold italic">
+                                Director de Tecnología
+                            </h5>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Empresario, con amplia experiencia en Tecnología de la Información, en la gestión de sistemas y procesos digitales.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/profile.php?id=100015499410142" target="_blank">
@@ -438,8 +447,7 @@
         </div>
     </section>
 
-    {{-- card section --}}
-    <section class="pb-20 relative block bg-white" id="caracterization">
+    <section class="pb-20 relative block bg-white">
         <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px; transform: translateZ(0px);"
@@ -542,8 +550,8 @@
     </section>
 
     {{-- our plans --}}
-    <section class="pt-20 pb-2 bg-fixed" id="plains"
-             style='background-image: url("{{ asset('images/landing/business_3.jpg') }}");'>
+    <section class="pt-20 pb-2 bg-fixed" id="plans"
+             style='background-image:linear-gradient(0deg, rgba(0, 255, 255, 0.3), rgba(0, 255, 255, 0.3)), url("{{ asset('images/landing/business_3.jpg') }}");'>
         <div class="container mx-auto px-4 ">
             <div class="flex flex-wrap justify-center text-center mb-24">
                 <div class="w-full lg:w-6/12 px-4">
@@ -553,7 +561,7 @@
                         <i class="fas fa-money-check-alt text-xl"></i>
                     </div>
                     <h2 class="text-white font-semibold text-5xl">Planes de Gestión</h2>
-                    <p class="mt-4 text-lg text-gray-300">
+                    <p class="mt-4 text-lg text-gray-100">
                         Su participación diaria comienza tras 48 horas para cumplir con el procedimiento estándar de
                         llevar susactivos a la mesa de negociaciones. Sus retiros pueden hacerse una vez al mes, en la
                         misma fecha en quehizo la inversión. No hay un valor máximo para la retirada, y el valor mínimo
@@ -565,7 +573,7 @@
     </section>
 
     {{-- card section --}}
-    <section class="bg-white" id="cards">
+    <section class="bg-white">
         <div class="container mx-auto px-4 pb-24 z-50">
             <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                 <div
@@ -725,8 +733,8 @@
         </div>
     </section>
 
-    {{-- our leaders section --}}
-    <section class="pb-20 relative block bg-blue-500">
+    {{-- Begin fast --}}
+    <section class="pb-20 relative block">
         <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px; transform: translateZ(0px);"
@@ -825,6 +833,30 @@
         </div>
     </section>
 
+    {{-- Blog last 3 --}}
+    <section class="pb-20 relative block bg-white mx-auto">
+        <div
+            class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style="height: 80px; transform: translateZ(0px);"
+        >
+            <svg
+                class="absolute bottom-0 overflow-hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                version="1.1"
+                viewBox="0 0 2560 100"
+                x="0"
+                y="0"
+            >
+                <polygon
+                    class="text-white fill-current"
+                    points="2560 0 2560 100 0 100"
+                ></polygon>
+            </svg>
+        </div>
+        @livewire('landing-blog')
+    </section>
+
     {{-- footer section --}}
     <footer class="relative bg-gray-300 pt-8 pb-6">
         <div
@@ -918,7 +950,7 @@
                                 <li>
                                     <a
                                         class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                                        href="#plains"
+                                        href="#plans"
                                     >Planes</a
                                     >
                                 </li>
@@ -946,6 +978,7 @@
     </footer>
 
 </x-app-layout>
+
 <script src="{{ asset('js/all.js') }}"></script>
 <script>
     var scroll = new SmoothScroll('a[href*="#"]', {easing: 'easeInOutQuart'})
