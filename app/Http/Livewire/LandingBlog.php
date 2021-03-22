@@ -12,7 +12,7 @@ class LandingBlog extends Component
 
     public function render()
     {
-        $posts = Post::orderBy('id', 'desc')->take($this->quatity)->get();
+        $posts = Post::where('status', '2')->orderBy('id', 'desc')->take($this->quatity)->get();
         return view('livewire.landing-blog', compact('posts'));
     }
 }
