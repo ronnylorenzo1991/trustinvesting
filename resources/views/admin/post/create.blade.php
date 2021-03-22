@@ -58,7 +58,7 @@
             <div class="form-group">
                 @foreach($tags as $tag)
                     <label>
-                        {!! Form::checkbox('tags[]', 'Tags', null) !!}
+                        {!! Form::checkbox('tags[]', $tag->id, null) !!}
                         {{ $tag->name }}
                     </label>
                 @endforeach
@@ -124,17 +124,18 @@
         })
 
         ClassicEditor
-            .create( document.querySelector( '#extract' ) )
-            .catch( error => {
-                console.error( error );
-            } );
+            .create(document.querySelector('#extract'))
+            .catch(error => {
+                console.error(error);
+            });
         ClassicEditor
-            .create( document.querySelector( '#body' ) )
-            .catch( error => {
-                console.error( error );
-            } );
+            .create(document.querySelector('#body'))
+            .catch(error => {
+                console.error(error);
+            });
         document.getElementById("file").addEventListener('change', changeImg);
-        function changeImg(event){
+
+        function changeImg(event) {
             var file = event.target.files[0];
 
             var reader = new FileReader();
