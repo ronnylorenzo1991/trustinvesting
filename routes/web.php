@@ -12,6 +12,10 @@ Route::get('/', function () {
     return view('welcome');
 })->middleware('translate')->name('home');
 
+Route::get('/marketing', function () {
+    return view('marketing');
+})->middleware('translate')->name('marketing');
+
 Route::get('/blog', [PostController::class, 'index'])->name('post.index');
 
 Route::get('post/{post}/show', [PostController::class, 'show'])->name('post.show');

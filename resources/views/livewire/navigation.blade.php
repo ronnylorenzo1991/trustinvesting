@@ -42,6 +42,8 @@
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_leaders') }}</a>
                                 <a href="#plans"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_plans') }}</a>
+                                <a href="{{ route('marketing') }}"
+                                   class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Marketing</a>
                                 <a href="{{ route('post.index') }}"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
                                 <div class="inline-block mr-2 mt-2">
@@ -148,6 +150,8 @@
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_leaders') }}</a>
                 <a href="#plans"
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_plans') }}</a>
+                <a href="{{ route('post.index') }}"
+                   class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Marketing</a>
                 <a href="https://trustinvesting.com/yassercuba/unete"
                    class="text-white bg-green-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.register') }}</a>
             @else

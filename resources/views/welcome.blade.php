@@ -694,7 +694,7 @@
                         <p class="leading-relaxed text-base">Gane en cada ocasión que invita a alguien a formar parte de
                             su red de negocios el 10% en comisión por Venta Directa y el 5% en acto de renovación y
                             recompra. </p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#direct_sale">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -707,7 +707,7 @@
                         <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Bono BINARIO</h2>
                         <p class="leading-relaxed text-base">Amplíe su Red de Negocios y gane cada día hasta el 10% del
                             volumen en su rama de menor facturación.</p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#binary_bonus">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -721,7 +721,7 @@
                         <p class="leading-relaxed text-base">Trust Investing ofrece para los afiliados que deciden hacer
                             su carrera de negocios con nosotros, 7 graduaciones o rangos que bonifican todos los días
                             primero de cada mes, entre 100 y 150 000 USDT. </p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#carrier_plan">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
