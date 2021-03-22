@@ -16,6 +16,10 @@ Route::get('/marketing', function () {
     return view('marketing');
 })->middleware('translate')->name('marketing');
 
+Route::get('/manage-plans', function () {
+    return view('manage-plans');
+})->middleware('translate')->name('manage');
+
 Route::get('/blog', [PostController::class, 'index'])->name('post.index');
 
 Route::get('post/{post}/show', [PostController::class, 'show'])->name('post.show');

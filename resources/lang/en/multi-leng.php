@@ -5,4 +5,5 @@ return [
     'menu_leaders' => 'leaders',
     'menu_plans'   => 'plans',
     'register'     => 'register',
+    'manage'       => 'manage',
 ];

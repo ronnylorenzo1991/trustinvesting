@@ -593,7 +593,7 @@
                                     000 USDT. El retorno final es el doble del valor del plan, pues la compañía se
                                     compromete a duplicar la inversión de sus afiliados, es decir, alcanzar el 200% del
                                     capital invertido.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#star">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">
@@ -621,7 +621,7 @@
                                     100 000 USDT. El retorno final siempre es el triple del valor del plan, pues la
                                     compañía se compromete a triplicar la inversión de sus afiliados, es decir, alcanzar
                                     el 300% del capital invertido.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#diamond">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">
@@ -648,7 +648,7 @@
                                     independientemente de su tipo y valor. Gracias a esto es posible realizar Interés
                                     Compuesto, según Einstein, la fuerza más poderosa del Universo. ¡Descubre como
                                     multiplicar tu dinero a través del tiempo!</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#interest">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">

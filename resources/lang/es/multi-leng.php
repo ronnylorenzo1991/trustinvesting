@@ -5,4 +5,5 @@ return [
     'menu_leaders' => 'directivos',
     'menu_plans'   => 'planes',
     'register'     => 'regístrate',
+    'manage'       => 'gestión',
 ];
