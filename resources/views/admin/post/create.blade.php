@@ -86,6 +86,17 @@
                  </span>
                 @enderror
             </div>
+            <div class="form-group">
+                <p class="font-weight-bold"> Status</p>
+                <label>
+                    {!! Form::radio('status', 2) !!}
+                    Approved
+                </label>
+                <label>
+                    {!! Form::radio('status', 1, true) !!}
+                    Eraser
+                </label>
+            </div>
             {{ Form::hidden('user_id', Auth::user()->id) }}
             {!! Form::submit('Save', ['class'=>'btn btn-primary pull-right']) !!}
             {!! link_to_route('admin.post.index', $title = 'cancel', $parameters = [], $attributes = ['class'=>'btn btn-default pull-right']); !!}
