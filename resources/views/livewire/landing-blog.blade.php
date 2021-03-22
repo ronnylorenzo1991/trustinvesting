@@ -10,7 +10,7 @@
                 <div class="max-w-xs rounded overflow-hidden shadow-lg my-2 mx-auto">
                     <img class="w-full" src="{{ asset($post->image->url )}}" alt="Sunset in the mountains">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">{{ $post->title }}</div>
+                        <div class="font-bold text-xl mb-2">{{ $post->name }}</div>
                         <p class="text-grey-darker text-base">
                             {!! $post->extract !!}
                         </p>
