@@ -49,9 +49,9 @@
                 ></polygon>
             </svg>
         </div>
-        <div class="container px-60 py-24 mx-auto">
+        <div class="container px-10 md:px-40 lg:px-60 py-24 mx-auto">
             <div>
-                <p class="text-2xl title-font text-left text-gray-500">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Trust Investing tiene un interesante plan de compensación o recompensa. Es opcional y está diseñado
                     para aquellos que desean obtener más de ese 200% por sus inversiones. Dichos planes son para
                     aquellos que desean formar un equipo de inversores. Están basados en el exitoso modelo de negocios
@@ -62,11 +62,11 @@
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Venta DIRECTA
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Gane en cada ocasión que invita a alguien a formar parte de su red de negocios. El 10% en comisión
                     por Venta Directa y el 5% en acto de renovación y recompra:
                 </p>
-                <ul class="text-2xl title-font text-left text-gray-500 mb-5">
+                <ul class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-5">
                     <li class="mb-5">A) Si un afiliado compra su primer paquete o un paquete de una cantidad que nunca
                         antes había comprado, la empresa bonifica con el 10% del valor a su patrocinador.
                     </li>
@@ -75,14 +75,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="mb-20" id="binary_bonus">
+            <div class="mb-20 mt-20" id="binary_bonus">
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Bono BINARIO
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                 <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Gane cada día hasta el 10% del volumen en su rama de menor facturación.
                 </p>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                 <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Cada afiliado tiene la posibilidad de formar dos equipos: uno a su derecha y otro a su izquierda (en
                     su oficina virtual). El lado binario por el que afiliado es invitado constituye su lado fuerte o de
                     derrame y el lado contrario, constituye su lado débil o de trabajo. Para Calificar o "desbloquear"
@@ -97,7 +97,7 @@
                     trabajo y esta adquiere su primer plan de inversión de 300 USDT. Una vez activado el Bono Binario de
                     Juan, este comienza a ganar por este concepto siguiendo el siguiente algoritmo:
                 </p>
-                <ul class="text-2xl title-font text-left text-gray-500 mb-5">
+                <ul class=" text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-5">
                     <li class="mb-5">1. Se contabiliza el volumen de ventas o la cantidad de dinero invertido por los
                         equipos de ambos lados; en este caso, 1000 por la izquierda y 300 por la derecha (se
                         contabilizan en forma de puntos binarios).
@@ -109,7 +109,7 @@
                         restar 300 puntos a cada lado quedarían 700 puntos por la izquierda y 0 puntos por la derecha.
                     </li>
                 </ul>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                 <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Para continuar recibiendo pagos por este concepto, Juan necesita ampliar su red, invitando, en este
                     caso, a nuevos referidos directos por su lado derecho que quedó en 0. Pero no se trata solo de Juan,
                     sino también del trabajo de su equipo (las personas que Juan invitó) de la izquierda y de la
@@ -117,10 +117,10 @@
                     también recibirá puntos por derrame, que no son más que los puntos aportados por su línea ascendente
                     en su lado fuerte ya que esta pierna es compartida.
                 </p>
-                <p class="text-2xl title-font text-left text-gray-500 font-bold">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 font-bold">
                     NOTA:
                 </p>
-                <ul class="text-2xl title-font text-left text-gray-500 mb-5">
+                <ul class=" text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-5">
                     <li class="mb-5">A) Si un afiliado compra su primer paquete o un paquete de una cantidad que nunca
                         antes había comprado, aporta al árbol de su patrocinador 1 punto por cada USDT.
                     </li>
@@ -136,16 +136,16 @@
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Plan de CARRERA
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                 <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Trust Investing ofrece para los afiliados que deciden hacer su carrera de negocios con nosotros, 7
                     graduaciones que bonifican todos los días primero de cada mes, entre 100 y 150 000 USDT.
                 </p>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                 <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Team Leader es la primera graduación dentro del plan de carrera y de ella parten las demás
                     graduaciones. Para alcanzar esta graduación, se debe cumplir con las siguientes condiciones sin
                     importar el orden en que se obtengan:
                 </p>
-                <ul class="text-2xl title-font text-left text-gray-500 mb-5">
+                <ul class=" text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-5">
                     <li class="mb-5">- Adquirir el plan 1K o superior.
                     </li>
                     <li>- Contar con dos referidos directos que hayan adquirido el plan 1K o superior. No importa si
