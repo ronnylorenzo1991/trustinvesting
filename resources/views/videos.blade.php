@@ -54,7 +54,7 @@
                 Presentación de negocio por Fabiano de Lima Director de Marketing de Trust Investing.
             </h1>
             <div class="relative h-0 pb-fluid-video">
-                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/485205913?color=0c88dd&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/485205913?color=0c88dd&title=0&byline=0&portrait=0" background="1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
