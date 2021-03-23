@@ -53,8 +53,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 Presentación de negocio por Fabiano de Lima Director de Marketing de Trust Investing.
             </h1>
-            <div>
-                <iframe class="bg-black mx-auto" x-ref="player" src="https://player.vimeo.com/video/485205913?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="relative h-0 pb-fluid-video">
+                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/485205913?color=0c88dd&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -84,8 +84,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 Presentación completa de negocio de Trust Investing.
             </h1>
-            <div>
-                <iframe class="bg-black mx-auto" x-ref="player" src="https://player.vimeo.com/video/460226626?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="relative h-0 pb-fluid-video">
+                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/460226626?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -115,8 +115,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 El CEO aclara la sostenibilidad de Trust Investing.
             </h1>
-            <div>
-                <iframe class="bg-black mx-auto" x-ref="player" src="https://player.vimeo.com/video/363364093?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="relative h-0 pb-fluid-video">
+                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/363364093?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -146,8 +146,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 Plan de Carrera.
             </h1>
-            <div>
-                <iframe class="bg-black mx-auto" x-ref="player" src="https://player.vimeo.com/video/375252319?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="relative h-0 pb-fluid-video">
+                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/375252319?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </section>
