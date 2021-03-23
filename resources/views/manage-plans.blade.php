@@ -49,12 +49,15 @@
                 ></polygon>
             </svg>
         </div>
-        <div class="container px-60 py-24 mx-auto">
+        <div class="container px-10 md:px-40 lg:px-60 py-24 mx-auto">
             <div class="mt-20" id="star">
+                <div class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-blue-500 mb-5">
+                    <i class="fa fa-star"></i>
+                </div>
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Planes STAR
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Trust Investing pone a disposición de sus afiliados un conjunto de planes de gestión tipo STAR que
                     van desde los 15 USDT hasta los 100 000 USDT. El retorno final es el doble del valor del plan, pues
                     la compañía se compromete a duplicar la inversión de sus afiliados, es decir, alcanzar el 200% del
@@ -73,10 +76,13 @@
                 </p>
             </div>
             <div class="mt-20" id="diamond">
+                <div class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-blue-500 mb-5">
+                    <i class="fa fa-gem"></i>
+                </div>
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Planes DIAMOND
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Trust Investing pone a disposición de sus afiliados un conjunto de planes de gestión tipo DIAMOND
                     que van desde los 1000 USDT hasta los 100 000 USDT. El retorno final siempre es el triple del valor
                     del plan, pues la compañía se compromete a triplicar la inversión de sus afiliados, es decir,
@@ -93,10 +99,13 @@
                 </p>
             </div>
             <div class="mt-20" id="interest">
+                <div class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-blue-500 mb-5">
+                    <i class="fas fa-handshake"></i>
+                </div>
                 <h1 class="text-3xl sm:text-3xl md:text-5xl lg:text-5xl title-font text-center text-gray-900 mb-20">
                     Interés Compuesto
                 </h1>
-                <p class="text-2xl title-font text-left text-gray-500 mb-10">
+                <p class="text-xl md:text-2xl lg:text-2xl title-font text-left text-gray-500 mb-10">
                     Según Wikipedia, el Interés Compuesto(también conocido como Inversión Compuesta), es un sistema que
                     capitaliza los intereses, por lo tanto, hace que el valor que se paga por concepto de intereses se
                     incremente mes a mes, puesto que la base para el cálculo del interés se incrementa cada vez que se
