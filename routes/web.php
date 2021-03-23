@@ -5,12 +5,16 @@ use \App\Http\Controllers\PostController;
 
 Route::get('lang/{language}', function ($language) {
     Session::put('language', $language);
-    return redirect('/');
+    return redirect()->back();
 })->name('language');
 
 Route::get('/', function () {
     return view('welcome');
 })->middleware('translate')->name('home');
+
+Route::get('/videos', function () {
+    return view('videos');
+})->middleware('translate')->name('videos');
 
 Route::get('/marketing', function () {
     return view('marketing');
