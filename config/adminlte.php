@@ -240,14 +240,14 @@ return [
             'icon' => 'fas fa-tachometer-alt fa-fw',
             'can'  => 'admin.dashboard',
         ],
-        ['header' => 'Landing'],
-        [
-            'text'   => 'Landing Page',
-            'route'  => 'admin.landing.index',
-            'icon'   => 'fa fa-fw fa-home',
-            'active' => ['admin/landing*'],
-            'can'    => 'admin.landings.list',
-        ],
+//        ['header' => 'Landing'],
+//        [
+//            'text'   => 'Landing Page',
+//            'route'  => 'admin.landing.index',
+//            'icon'   => 'fa fa-fw fa-home',
+//            'active' => ['admin/landing*'],
+//            'can'    => 'admin.landings.list',
+//        ],
         ['header' => 'Blogger Options'],
         [
             'text'   => 'Post',
