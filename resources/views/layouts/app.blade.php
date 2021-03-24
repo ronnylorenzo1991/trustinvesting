@@ -8,7 +8,7 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-BCPPBXSDXY');
+            gtag('config', 'G-3QYH74M4PG');
         </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
