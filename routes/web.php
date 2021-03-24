@@ -2,27 +2,24 @@
 
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\PostController;
+use \App\Http\Controllers\HomeController;
 
 Route::get('lang/{language}', function ($language) {
     Session::put('language', $language);
     return redirect()->back();
 })->name('language');
 
-Route::get('/', function () {
-    return view('welcome');
-})->middleware('translate')->name('home');
+Route::get('/', [HomeController::class, 'index'])
+    ->middleware('translate')->name('home');
 
-Route::get('/videos', function () {
-    return view('videos');
-})->middleware('translate')->name('videos');
+Route::get('/videos', [HomeController::class, 'videos'])
+    ->middleware('translate')->name('videos');
 
-Route::get('/marketing', function () {
-    return view('marketing');
-})->middleware('translate')->name('marketing');
+Route::get('/marketing', [HomeController::class, 'marketing'])
+    ->middleware('translate')->name('marketing');
 
-Route::get('/manage-plans', function () {
-    return view('manage-plans');
-})->middleware('translate')->name('manage');
+Route::get('/manage-plans', [HomeController::class, 'manage'])
+    ->middleware('translate')->name('manage');
 
 Route::get('/blog', [PostController::class, 'index'])->name('post.index');
 
