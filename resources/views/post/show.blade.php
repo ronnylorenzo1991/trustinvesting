@@ -4,15 +4,15 @@
             {{ $post->name }}
         </h1>
         <div class="text-lg text-gray-500 mb-2">
-            {{ $post->extract }}
+            {!! $post->extract !!}
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div class="lg:col-span-2">
                 <figure>
                     <img class="w-full h-80 object-cover object-center" src="{{ asset($post->image->url) }}">
                 </figure>
-                <div class="text-base text-gray-600 mt-4">
-                    {{ $post->body }}
+                <div class="text-base text-gray-600 mt-4 justify-content-center text-justify">
+                    {!! $post->body !!}
                 </div>
             </div>
             <aside>
