@@ -16,8 +16,9 @@
                 </div>
             </div>
             <aside>
-                <h1 class="text-2xl text-gray-600 font-bold text-left mb-4"> Related Posts in
-                    | {{ $post->category->name }}</h1>
+                @if (!empty($related))
+                    <h1 class="text-2xl text-gray-600 font-bold text-left mb-4"> Related Posts in
+                        | {{ $post->category->name }}</h1>
                     <ul>
                         @foreach ($related as $rpost)
                             <li class="mb-4">
@@ -31,6 +32,7 @@
                             </li>
                         @endforeach
                     </ul>
+                @endif
             </aside>
         </div>
     </div>
