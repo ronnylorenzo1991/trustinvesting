@@ -13,7 +13,7 @@ use \App\Http\Controllers\Admin\ImageController;
 Route::get('', [HomeController::class, 'index'])->name('admin.home');
 
 //Route::resource('landing', LandingController::class)->names('admin.landing');
-Route::resource('gallery', ImageController::class)->names('admin.image');
+//Route::resource('gallery', ImageController::class)->names('admin.image');
 Route::resource('category', CategoryController::class)->names('admin.category');
 Route::resource('tag', TagController::class)->names('admin.tag');
 Route::resource('post', PostController::class)->names('admin.post');

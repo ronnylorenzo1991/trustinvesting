@@ -271,13 +271,13 @@ return [
             'active' => ['admin/tag*'],
             'can'    => 'admin.tags.list',
         ],
-        [
-            'text'   => 'Gallery',
-            'route'  => 'admin.image.index',
-            'icon'   => 'fa fa-fw fa-object-group',
-            'active' => ['admin/tag*'],
-            'can'    => 'admin.tags.list',
-        ],
+//        [
+//            'text'   => 'Gallery',
+//            'route'  => 'admin.image.index',
+//            'icon'   => 'fa fa-fw fa-object-group',
+//            'active' => ['admin/tag*'],
+//            'can'    => 'admin.tags.list',
+//        ],
         [
             'text'    => 'Security',
             'icon'    => 'fa fa-unlock-alt',
