@@ -15,8 +15,8 @@
                     {!! $post->body !!}
                 </div>
             </div>
-            <aside>
-                @if (!empty($related))
+            @if (count($related) > 0)
+                <aside>
                     <h1 class="text-2xl text-gray-600 font-bold text-left mb-4"> Related Posts in
                         | {{ $post->category->name }}</h1>
                     <ul>
@@ -32,8 +32,8 @@
                             </li>
                         @endforeach
                     </ul>
-                @endif
-            </aside>
+                </aside>
+            @endif
         </div>
     </div>
 </x-app-layout>
