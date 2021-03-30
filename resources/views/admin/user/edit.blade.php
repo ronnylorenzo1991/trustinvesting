@@ -2,7 +2,7 @@
 @section('title', 'Edit Role')
 
 @section('content_header')
-    <h1>Edit Role</h1>
+    <h1>Edit User</h1>
 @stop
 
 @section('content')
@@ -22,6 +22,15 @@
                 {!! Form::label('email', 'Email') !!}
                 {!! Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'insert email']) !!}
                 @error('name')
+                <span class="text-danger text-small">
+                     {{ $message }}
+                 </span>
+                @enderror
+            </div>
+            <div class="form-group">
+                {!! Form::label('password', 'Password') !!}
+                {!! Form::text('password', null, ['class' => 'form-control', 'placeholder' => 'insert password']) !!}
+                @error('password')
                 <span class="text-danger text-small">
                      {{ $message }}
                  </span>
