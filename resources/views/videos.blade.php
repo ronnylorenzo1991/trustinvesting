@@ -50,11 +50,11 @@
             </svg>
         </div>
         <div class="container px-10 md:px-40 lg:px-60 py-24 mx-auto">
-            <h1 class="mt-5 mb-5 font-bold capitalize text-center">
+            <h1 class="mt-5 font-bold capitalize text-center">
                 Presentación de negocio por Fabiano de Lima Director de Marketing de Trust Investing.
             </h1>
-            <div class="relative h-0 pb-fluid-video">
-                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/485205913?color=0c88dd&title=0&byline=0&portrait=0" background="1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="embed-responsive aspect-ratio-4/3">
+                <iframe class="w-full" src="https://player.vimeo.com/video/485205913?title=0&byline=0&portrait=0" width="800" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -84,8 +84,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 Presentación completa de negocio de Trust Investing.
             </h1>
-            <div class="relative h-0 pb-fluid-video">
-                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/460226626?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="embed-responsive aspect-ratio-4/3">
+                <iframe class="w-full" x-ref="player" src="https://player.vimeo.com/video/460226626?color=0c88dd&title=0&byline=0&portrait=0"   width="800" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -115,8 +115,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 El CEO aclara la sostenibilidad de Trust Investing.
             </h1>
-            <div class="relative h-0 pb-fluid-video">
-                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/363364093?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="embed-responsive aspect-ratio-4/3">
+                <iframe class="w-full" x-ref="player" src="https://player.vimeo.com/video/363364093?color=0c88dd&title=0&byline=0&portrait=0"    width="800" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -146,8 +146,8 @@
             <h1 class="mt-5 mb-5 font-bold capitalize text-center">
                 Plan de Carrera.
             </h1>
-            <div class="relative h-0 pb-fluid-video">
-                <iframe class="absolute top-0 left-0 w-full h-full" x-ref="player" src="https://player.vimeo.com/video/375252319?color=0c88dd&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="embed-responsive aspect-ratio-4/3">
+                <iframe class="w-full" x-ref="player" src="https://player.vimeo.com/video/375252319?color=0c88dd&title=0&byline=0&portrait=0"    width="800" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
