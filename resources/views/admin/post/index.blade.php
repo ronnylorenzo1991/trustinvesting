@@ -32,7 +32,7 @@
                             <img width="80px"
                                  src="{{ asset($post->image->url  ?? '' ) }}">
                         </td>
-                        <td>{{ $post->name }}</td>
+                        <td>{{ $post->getNameByLang('es') }}</td>
                         <td>
                             <span @if ($post->status === '2') class="badge badge-success"
                                   @else class="badge badge-danger" @endif>

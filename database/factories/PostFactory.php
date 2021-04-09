@@ -24,12 +24,27 @@ class PostFactory extends Factory
      */
     public function definition()
     {
-        $name =  $this->faker->unique()->sentence();
+        $name = [
+            'es' => $this->faker->unique()->sentence(),
+            'en' => $this->faker->unique()->sentence(),
+            'ch' => $this->faker->unique()->sentence(),
+        ];
+        $extract = [
+            'es' => $this->faker->text(250),
+            'en' => $this->faker->text(250),
+            'ch' => $this->faker->text(250),
+        ];
+        $body = [
+            'es' => $this->faker->text(2000),
+            'en' => $this->faker->text(2000),
+            'ch' => $this->faker->text(2000),
+        ];
+
         return [
-            'name' => $name,
-            'slug' => Str::slug($name),
-            'extract' => $this->faker->text(250),
-            'body' => $this->faker->text(2000),
+            'name' => json_encode($name),
+            'slug' => Str::slug($name['es']),
+            'extract' => json_encode($extract),
+            'body' => json_encode($body),
             'status' => $this->faker->randomElement([1,2]),
             'category_id' => Category::all()->random()->id,
             'user_id' => User::all()->random()->id,

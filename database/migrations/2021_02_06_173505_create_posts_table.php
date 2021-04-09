@@ -15,10 +15,10 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->json('name');
             $table->string('slug');
-            $table->text('extract');
-            $table->longText('body');
+            $table->json('extract');
+            $table->json('body');
             $table->enum('status', [1,2])->default(1);
 
             $table->unsignedBigInteger('user_id')->nullable();

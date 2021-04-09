@@ -44,4 +44,22 @@ class Post extends Model
     {
         return $this->morphOne(Image::class, 'imageable');
     }
+
+    public function getNameByLang($lang)
+    {
+        $translates =(array) json_decode($this->name);
+        return $this->name = $translates[$lang];
+    }
+
+    public function getExtractByLang($lang)
+    {
+        $translates =(array) json_decode($this->extract);
+        return $this->extract = $translates[$lang];
+    }
+
+    public function getBodyByLang($lang)
+    {
+        $translates =(array) json_decode($this->body);
+        return $this->body = $translates[$lang];
+    }
 }

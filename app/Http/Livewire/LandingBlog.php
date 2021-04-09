@@ -8,11 +8,11 @@ use Livewire\Component;
 class LandingBlog extends Component
 {
 
-    private $quatity = 3;
+    private $quantity = 3;
 
     public function render()
     {
-        $posts = Post::where('status', '2')->orderBy('id', 'desc')->take($this->quatity)->get();
+        $posts = Post::where('status', '2')->orderBy('id', 'desc')->take($this->quantity)->get();
         return view('livewire.landing-blog', compact('posts'));
     }
 }
