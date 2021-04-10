@@ -43,7 +43,6 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-
         $request->validate([
             'name'     => 'required',
             'email'    => 'required|email',
@@ -51,8 +50,12 @@ class UserController extends Controller
             'password' => 'required',
         ]);
 
-        $user = User::create($request->all());
-        $user->roles()->attach($request->roles);
+        User::create([
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'password' => bcrypt($request->get('password'))
+        ])->assignRole($request->get('roles'));
+
         return redirect(route('admin.user.index'))->with('info', 'the user was created');
     }
 
@@ -92,6 +95,7 @@ class UserController extends Controller
         $request->validate([
             'name'  => 'required',
             'email' => 'required|email',
+            'roles' => 'required',
         ]);
 
         $user->roles()->sync($request->roles);

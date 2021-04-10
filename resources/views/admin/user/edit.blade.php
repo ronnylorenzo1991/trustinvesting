@@ -28,15 +28,6 @@
                 @enderror
             </div>
             <div class="form-group">
-                {!! Form::label('password', 'Password') !!}
-                {!! Form::text('password', null, ['class' => 'form-control', 'placeholder' => 'insert password']) !!}
-                @error('password')
-                <span class="text-danger text-small">
-                     {{ $message }}
-                 </span>
-                @enderror
-            </div>
-            <div class="form-group">
                 @foreach ($roles as $role)
                     <div class="form-check form-check-inline">
                         <label>
