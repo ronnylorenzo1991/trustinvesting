@@ -11,9 +11,10 @@
                     <img class="w-full" src="{{ asset($post->image->url )}}" alt="Sunset in the mountains">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">{{ $post->getNameByLang(app()->getLocale()) ?? $post->getNameByLang(app()->getLocale('es')) }}</div>
-{{--                        <p class="text-grey-darker text-base" style="">--}}
-{{--                            {!! $post->getExtractByLang(app()->getLocale()) ?? $post->getExtractByLang(app()->getLocale('es')) !!}--}}
-{{--                        </p>--}}
+                        <p class="text-grey-darker text-base" style="">
+                            {{--put the extract without tags--}}
+                            {{ strip_tags($post->getExtractByLang(app()->getLocale())) ?? strip_tags($post->getExtractByLang(app()->getLocale('es'))) }}
+                        </p>
                     </div>
                     <div class="px-6 py-4">
                         @foreach($post->tags as $tag)
