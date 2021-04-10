@@ -248,27 +248,27 @@ return [
 //            'active' => ['admin/landing*'],
 //            'can'    => 'admin.landings.list',
 //        ],
-        ['header' => 'Blogger Options'],
+        [ 'header' => 'Blogger Options' ],
         [
             'text'   => 'Post',
             'route'  => 'admin.post.index',
             'icon'   => 'fa fa-fw fa-columns',
-            'active' => ['admin/post*'],
+            'active' => [ 'admin/post*' ],
             'can'    => 'admin.posts.list',
         ],
-        ['header' => 'Administrator'],
+        [ 'header' => 'Administrator' ],
         [
             'text'   => 'Categories',
             'route'  => 'admin.category.index',
             'icon'   => 'fab fa-fw fa-buffer',
-            'active' => ['admin/category*'],
+            'active' => [ 'admin/category*' ],
             'can'    => 'admin.categories.list',
         ],
         [
             'text'   => 'Tags',
             'route'  => 'admin.tag.index',
             'icon'   => 'fa fa-fw fa-hashtag',
-            'active' => ['admin/tag*'],
+            'active' => [ 'admin/tag*' ],
             'can'    => 'admin.tags.list',
         ],
 //        [
@@ -281,19 +281,19 @@ return [
         [
             'text'    => 'Security',
             'icon'    => 'fa fa-unlock-alt',
-            'can'    => ['admin.users.list', 'admin.roles.list'],
+            'can'     => [ 'admin.users.list', 'admin.roles.list' ],
             'submenu' => [
                 [
-                    'text'   => 'Users',
-                    'route'  => 'admin.user.index',
-                    'can'    => 'admin.users.list',
-                    'icon'   => 'fa fa-fw fa-user',
+                    'text'  => 'Users',
+                    'route' => 'admin.user.index',
+                    'can'   => 'admin.users.list',
+                    'icon'  => 'fa fa-fw fa-user',
                 ],
                 [
-                    'text'   => 'Roles',
-                    'route'  => 'admin.role.index',
-                    'can'    => 'admin.roles.list',
-                    'icon'   => 'fa fa-address-card',
+                    'text'  => 'Roles',
+                    'route' => 'admin.role.index',
+                    'can'   => 'admin.roles.list',
+                    'icon'  => 'fa fa-address-card',
                 ],
             ],
         ],
@@ -394,7 +394,7 @@ return [
     */
 
     'plugins' => [
-        'Datatables'  => [
+        'Datatables'            => [
             'active' => false,
             'files'  => [
                 [
@@ -414,7 +414,7 @@ return [
                 ],
             ],
         ],
-        'Select2'     => [
+        'Select2'               => [
             'active' => false,
             'files'  => [
                 [
@@ -429,7 +429,7 @@ return [
                 ],
             ],
         ],
-        'Chartjs'     => [
+        'Chartjs'               => [
             'active' => false,
             'files'  => [
                 [
@@ -439,7 +439,7 @@ return [
                 ],
             ],
         ],
-        'Sweetalert2' => [
+        'Sweetalert2'           => [
             'active' => false,
             'files'  => [
                 [
@@ -451,20 +451,20 @@ return [
         ],
         'Bootstrap Colorpicker' => [
             'active' => true,
-            'files' => [
+            'files'  => [
                 [
-                    'type' => 'js',
-                    'asset' => true,
-                    'location' => asset('vendor/bootstrap-colorpicker/js/bootstrap-colorpicker.js'),
+                    'type'     => 'js',
+                    'asset'    => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/js/bootstrap-colorpicker.min.js',
                 ],
                 [
-                    'type' => 'css',
-                    'asset' => true,
-                    'location' => asset('vendor/bootstrap-colorpicker/css/bootstrap-colorpicker.css'),
+                    'type'     => 'css',
+                    'asset'    => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/css/bootstrap-colorpicker.min.css',
                 ],
             ],
         ],
-        'Pace'        => [
+        'Pace'                  => [
             'active' => false,
             'files'  => [
                 [
