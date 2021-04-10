@@ -28,8 +28,13 @@
                 @enderror
             </div>
             <div class="form-group">
-                {!! Form::label('color', 'Color') !!}
-                {!! Form::select('color', ['cyan' => 'Cyan', 'red' => 'Red', 'indigo' => 'Indigo', 'yellow' => 'Yellow', 'grey' => 'Grey'], null, ['placeholder' => 'Pick a color...', 'class' => 'form-control']); !!}
+                <label>Color</label>
+                <div class="input-group my-colorpicker2 colorpicker-element" data-colorpicker-id="2">
+                    <input type="text" id="colorpicker" name="color" class="form-control" data-original-title="" title="">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-square" id="colorpicker-addon"></i></span>
+                    </div>
+                </div>
                 @error('color')
                 <span class="text-danger">
                      {{ $message }}
@@ -56,6 +61,11 @@
                 getPut: '#slug',
                 space: '-',
             });
+            $('#colorpicker').colorpicker();
+            $('#colorpicker').on('colorpickerChange', function(event) {
+                $('#colorpicker-addon').css('color', event.color.toString());
+            });
         });
+
     </script>
 @stop

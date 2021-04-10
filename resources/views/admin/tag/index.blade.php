@@ -28,7 +28,7 @@
                     <tr>
                         <td>{{ $tag->id }}</td>
                         <td>{{ $tag->name }}</td>
-                        <td>{{ $tag->color }}</td>
+                        <td><span><i class="fa fa-square" style="color: {{ $tag->color }}"></i></span></td>
                         <td width="10px">
                             @can('admin.tags.edit')
                                 <a class="btn btn-primary btn-sm text-white"

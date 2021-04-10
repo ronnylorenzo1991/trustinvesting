@@ -39,8 +39,8 @@ class TagController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
-            'slug' => 'required|unique:tags',
+            'name'  => 'required',
+            'slug'  => 'required|unique:tags',
             'color' => 'required',
         ]);
 
@@ -81,9 +81,9 @@ class TagController extends Controller
     public function update(Request $request, Tag $tag)
     {
         $request->validate([
-            'name' => 'required',
-            "slug' => 'required|unique:tags,slug,$tag->id",
-            "color' => 'required",
+            'name'  => 'required',
+            'slug'  => 'required|unique:tags,slug,'.$tag->id,
+            'color' => 'required',
         ]);
 
         $tag->update($request->all());
