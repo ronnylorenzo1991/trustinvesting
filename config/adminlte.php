@@ -256,6 +256,13 @@ return [
             'active' => [ 'admin/post*' ],
             'can'    => 'admin.posts.list',
         ],
+        [
+            'text'   => 'Payment',
+            'route'  => 'admin.payment.index',
+            'icon'   => 'fa fa-fw fa-money-bill',
+            'active' => [ 'admin/payment*' ],
+            'can'    => 'admin.payment.list',
+        ],
         [ 'header' => 'Administrator' ],
         [
             'text'   => 'Categories',
@@ -461,6 +468,21 @@ return [
                     'type'     => 'css',
                     'asset'    => false,
                     'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.2.0/css/bootstrap-colorpicker.min.css',
+                ],
+            ],
+        ],
+        'Datepicker' => [
+            'active' => true,
+            'files'  => [
+                [
+                    'type'     => 'js',
+                    'asset'    => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js',
+                ],
+                [
+                    'type'     => 'css',
+                    'asset'    => false,
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css',
                 ],
             ],
         ],

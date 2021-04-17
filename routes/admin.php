@@ -7,8 +7,9 @@ use \App\Http\Controllers\Admin\TagController;
 use \App\Http\Controllers\Admin\PostController;
 use \App\Http\Controllers\Admin\UserController;
 use \App\Http\Controllers\Admin\RoleController;
-use \App\Http\Controllers\Admin\LandingController;
-use \App\Http\Controllers\Admin\ImageController;
+use \App\Http\Controllers\Admin\PaymentController;
+//use \App\Http\Controllers\Admin\LandingController;
+//use \App\Http\Controllers\Admin\ImageController;
 
 Route::get('', [HomeController::class, 'index'])->name('admin.home');
 
@@ -17,5 +18,6 @@ Route::get('', [HomeController::class, 'index'])->name('admin.home');
 Route::resource('category', CategoryController::class)->names('admin.category');
 Route::resource('tag', TagController::class)->names('admin.tag');
 Route::resource('post', PostController::class)->names('admin.post');
+Route::resource('payment', PaymentController::class)->names('admin.payment');
 Route::resource('user', UserController::class)->names('admin.user');
 Route::resource('role', RoleController::class)->names('admin.role');
