@@ -17,7 +17,7 @@
                 </div>
                 <div class="col">
                     <div>
-                        {!! Form::label('label-image', 'Imagen que se mostrara en el pos') !!}
+                        {!! Form::label('label-image', 'Imagen que se mostrara en el post') !!}
                         <input type="file" name="image" id="file" class="form-control-file">
                     </div>
                     <p> Esta imagen debe conetner las siguientes caracteristicas</p>
