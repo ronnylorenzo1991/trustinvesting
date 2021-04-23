@@ -48,18 +48,18 @@ class Post extends Model
     public function getNameByLang($lang)
     {
         $translates = (array) json_decode($this->name);
-        return $this->name = $translates[$lang];
+        return $this->name = $translates[$lang] ?? $translates['es'];
     }
 
     public function getExtractByLang($lang)
     {
         $translates =(array) json_decode($this->extract);
-        return $this->extract = $translates[$lang];
+        return $this->extract = $translates[$lang] ?? $translates['es'];
     }
 
     public function getBodyByLang($lang)
     {
         $translates =(array) json_decode($this->body);
-        return $this->body = $translates[$lang];
+        return $this->body = $translates[$lang] ?? $translates['es'];
     }
 }
