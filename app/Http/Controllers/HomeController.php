@@ -63,7 +63,7 @@ class HomeController extends Controller
 
         if (!count($paymentsDay) > 0)
         {
-            $paymentsDay = DB::table('payments')->select('qty')->orderBy('id', 'DESC')->first();
+            $paymentsDay = DB::table('payments')->select('qty')->orderBy('date', 'DESC')->first();
             $paymentsDay = $paymentsDay->qty;
         }
 
