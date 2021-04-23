@@ -55,7 +55,7 @@ class HomeController extends Controller
 
         $today = date('Y-m-d');
 
-        $paymentsYear = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $yearStart, $yearEnd ))->sum('qty');
+        $paymentsYear = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $yearStart, $yearEnd ))->sum('qty') + 55.4;
         $paymentsWeek = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $weekStart, $weekEnd ))->sum('qty');
         $paymentsMonth = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $monthStart, $monthEnd ))->sum('qty');
 
