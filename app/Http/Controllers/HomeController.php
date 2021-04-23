@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Payment;
 use Artesaos\SEOTools\Facades\OpenGraph;
 use Artesaos\SEOTools\Facades\SEOTools;
 use Illuminate\Support\Facades\DB;
@@ -59,13 +60,13 @@ class HomeController extends Controller
         $paymentsWeek = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $weekStart, $weekEnd ))->sum('qty');
         $paymentsMonth = DB::table('payments')->whereBetween(DB::raw('DATE(date)'), array ( $monthStart, $monthEnd ))->sum('qty');
 
-        $paymentsDay = DB::table('payments')->select('qty')->where('date', $today)->get();
+        $paymentsDay = Payment::select('qty')->where('date', $today)->get();
 
         if (!count($paymentsDay) > 0)
         {
-            $paymentsDay = DB::table('payments')->select('qty')->orderBy('date', 'DESC')->first();
-            $paymentsDay = $paymentsDay->qty;
+            $paymentsDay = Payment::select('qty')->orderBy('date', 'DESC')->get();
         }
+        $paymentsDay = $paymentsDay[0]->qty;
 
         return view('payments-history', compact('paymentsDay', 'paymentsMonth', 'paymentsWeek', 'paymentsYear'));
     }
