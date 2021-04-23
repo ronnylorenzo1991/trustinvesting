@@ -9,7 +9,7 @@ class PaymentSection extends Component
 {
     public function render()
     {
-        $payment = Payment::orderby('id', 'desc')->first();
+        $payment = Payment::orderby('date', 'DESC')->first();
         return view('livewire.payment-section', compact('payment'));
     }
 }
