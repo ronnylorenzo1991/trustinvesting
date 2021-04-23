@@ -354,7 +354,8 @@
                                 Director de Marketing
                             </h5>
                             <p class="mt-1 text-sm text-gray-500">
-                                Empresario desde los 19 años, con conocimientos técnicos (know-how) en desarrollo y expansión de negocios en los diversos segmentos.
+                                Empresario desde los 19 años, con conocimientos técnicos (know-how) en desarrollo y
+                                expansión de negocios en los diversos segmentos.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/fabiano.delima.54966" target="_blank">
@@ -389,7 +390,8 @@
                                 CEO
                             </h5>
                             <p class="mt-1 text-sm text-gray-500">
-                                Tiene una trayectoria de más de 10 años de experiencia en el Network Marketing, además de experiencia en desarrollo personal y gestión empresarial.
+                                Tiene una trayectoria de más de 10 años de experiencia en el Network Marketing, además
+                                de experiencia en desarrollo personal y gestión empresarial.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/diego.chaves.1291" target="_blank">
@@ -424,7 +426,8 @@
                                 Director de Tecnología
                             </h5>
                             <p class="mt-1 text-sm text-gray-500">
-                                Empresario, con amplia experiencia en Tecnología de la Información, en la gestión de sistemas y procesos digitales.
+                                Empresario, con amplia experiencia en Tecnología de la Información, en la gestión de
+                                sistemas y procesos digitales.
                             </p>
                             <div class="mt-6">
                                 <a href="https://www.facebook.com/profile.php?id=100015499410142" target="_blank">
@@ -593,7 +596,8 @@
                                     000 USDT. El retorno final es el doble del valor del plan, pues la compañía se
                                     compromete a duplicar la inversión de sus afiliados, es decir, alcanzar el 200% del
                                     capital invertido.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#star">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                                   href="{{ route('manage') }}#star">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">
@@ -621,7 +625,8 @@
                                     100 000 USDT. El retorno final siempre es el triple del valor del plan, pues la
                                     compañía se compromete a triplicar la inversión de sus afiliados, es decir, alcanzar
                                     el 300% del capital invertido.</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#diamond">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                                   href="{{ route('manage') }}#diamond">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">
@@ -648,7 +653,8 @@
                                     independientemente de su tipo y valor. Gracias a esto es posible realizar Interés
                                     Compuesto, según Einstein, la fuerza más poderosa del Universo. ¡Descubre como
                                     multiplicar tu dinero a través del tiempo!</p>
-                                <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('manage') }}#interest">Ver Detalles
+                                <a class="mt-3 text-indigo-500 inline-flex items-center"
+                                   href="{{ route('manage') }}#interest">Ver Detalles
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                          stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2"
                                          viewBox="0 0 24 24">
@@ -694,7 +700,8 @@
                         <p class="leading-relaxed text-base">Gane en cada ocasión que invita a alguien a formar parte de
                             su red de negocios el 10% en comisión por Venta Directa y el 5% en acto de renovación y
                             recompra. </p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#direct_sale">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center"
+                           href="{{ route('marketing') }}#direct_sale">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -707,7 +714,8 @@
                         <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Bono BINARIO</h2>
                         <p class="leading-relaxed text-base">Amplíe su Red de Negocios y gane cada día hasta el 10% del
                             volumen en su rama de menor facturación.</p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#binary_bonus">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center"
+                           href="{{ route('marketing') }}#binary_bonus">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -721,7 +729,8 @@
                         <p class="leading-relaxed text-base">Trust Investing ofrece para los afiliados que deciden hacer
                             su carrera de negocios con nosotros, 7 graduaciones o rangos que bonifican todos los días
                             primero de cada mes, entre 100 y 150 000 USDT. </p>
-                        <a class="mt-3 text-indigo-500 inline-flex items-center" href="{{ route('marketing') }}#carrier_plan">Ver Detalles
+                        <a class="mt-3 text-indigo-500 inline-flex items-center"
+                           href="{{ route('marketing') }}#carrier_plan">Ver Detalles
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                  stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -731,6 +740,30 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    {{-- Daily Payment --}}
+    <section class="pb-20 relative block bg-white mx-auto">
+        <div
+            class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style="height: 80px; transform: translateZ(0px);"
+        >
+            <svg
+                class="absolute bottom-0 overflow-hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                version="1.1"
+                viewBox="0 0 2560 100"
+                x="0"
+                y="0"
+            >
+                <polygon
+                    class="text-white fill-current"
+                    points="2560 0 2560 100 0 100"
+                ></polygon>
+            </svg>
+        </div>
+        @livewire('payment-section')
     </section>
 
     {{-- Begin fast --}}
