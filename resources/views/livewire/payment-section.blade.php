@@ -5,7 +5,7 @@
             data-class-in="translate-y-0 opacity-100"
             data-class-out="translate-y-32 opacity-0">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto">
-                <img class="object-cover object-center rounded mb-5 sm:mb-0 lg:mb-0 md:mb-0" alt="hero" src="{{ $payment->image->url }}">
+                <img class="object-cover object-center rounded mb-5 sm:mb-0 lg:mb-0 md:mb-0" alt="hero" src="{{ $payment->image->url ?? '' }}">
             </div>
         </div>
         <div
