@@ -25,10 +25,14 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
-        SEOTools::setTitle($post->getNameByLang(app()->getLocale()));
-        SEOTools::setDescription(strip_tags($post->getExtractByLang(app()->getLocale())));
-        OpenGraph::setDescription(strip_tags($post->getExtractByLang(app()->getLocale())));
-        OpenGraph::setTitle($post->getNameByLang(app()->getLocale()));
+        $post->getNameByLang(app()->getLocale());
+        $post->getExtractByLang(app()->getLocale());
+        $post->getBodyByLang(app()->getLocale());
+
+        SEOTools::setTitle($post->name);
+        SEOTools::setDescription(strip_tags($post->extract));
+        OpenGraph::setDescription(strip_tags($post->extract));
+        OpenGraph::setTitle($post->name);
         OpenGraph::setUrl('https://www.trustinvesting.us/' . $post->slug);
         OpenGraph::addProperty('type', 'articles');
 
