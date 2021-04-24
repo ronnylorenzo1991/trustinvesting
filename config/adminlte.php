@@ -477,12 +477,12 @@ return [
                 [
                     'type'     => 'js',
                     'asset'    => false,
-                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js',
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js',
                 ],
                 [
                     'type'     => 'css',
                     'asset'    => false,
-                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css',
+                    'location' => 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css',
                 ],
             ],
         ],

@@ -99,12 +99,10 @@
 
                 $(".datepicker").datepicker({
                     format: "yyyy-mm-dd",
-                    weekStart: 0,
-                    calendarWeeks: true,
-                    autoclose: true,
                     todayHighlight: true,
-                    rtl: true,
-                    orientation: "auto"
+                    todayBtn: 'linked',
+                    keyboardNavigation:true,
+                    autoclose: true,
                 });
             </script>
 @stop
