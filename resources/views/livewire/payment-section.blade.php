@@ -1,4 +1,4 @@
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font py-24">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div
             class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 p-4 md:w-1/3 flex mx-auto"

@@ -4,6 +4,8 @@ return [
     'menu_about'                    => 'sobre nosotros',
     'menu_leaders'                  => 'directivos',
     'menu_plans'                    => 'planes',
+    'menu_daily_payment'            => 'pago diario',
+    'menu_payment_history'          => 'histórico de pagos',
     'register'                      => 'regístrate',
     'manage'                        => 'gestión',
     'cripto_investment_description' => 'inversiones en criptoactivos',

@@ -4,6 +4,8 @@ return [
     'menu_about'                    => 'about us',
     'menu_leaders'                  => 'leaders',
     'menu_plans'                    => 'plans',
+    'menu_daily_payment'            => 'daily payment',
+    'menu_payment_history'          => 'payment history',
     'register'                      => 'register',
     'manage'                        => 'manage',
     'cripto_investment_description' => 'criptoactives investment',

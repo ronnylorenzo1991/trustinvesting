@@ -42,6 +42,10 @@
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_leaders') }}</a>
                                 <a href="#plans"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_plans') }}</a>
+                                <a href="#dailyPayment"
+                                   class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_daily_payment') }}</a>
+                                <a href="{{ route('payments-history') }}"
+                                   class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_payment_history') }}</a>
                                 <a href="{{ route('marketing') }}"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Marketing</a>
                                 <a href="{{ route('manage') }}"
@@ -57,6 +61,8 @@
                             @else
                                 <a href="{{ route('home') }}"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_home') }}</a>
+                                <a href="{{ route('payments-history') }}"
+                                   class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium capitalize">{{ trans('multi-leng.menu_payment_history') }}</a>
                                 <a href="{{ route('marketing') }}"
                                    class="text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Marketing</a>
                                 <a href="{{ route('manage') }}"
@@ -160,6 +166,10 @@
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_leaders') }}</a>
                 <a href="#plans"
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_plans') }}</a>
+                <a href="#dailyPayment"
+                   class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_daily_payment') }}</a>
+                <a href="{{ route('payments-history') }}"
+                   class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_payment_history') }}</a>
                 <a href="{{ route('marketing') }}"
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">Marketing</a>
                 <a href="{{ route('manage') }}"
@@ -173,6 +183,8 @@
             @else
                 <a href="{{ route('home') }}"
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_home') }}</a>
+                <a href="{{ route('payments-history') }}"
+                   class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">{{ trans('multi-leng.menu_payment_history') }}</a>
                 <a href="{{ route('marketing') }}"
                    class="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium capitalize">Marketing</a>
                 <a href="{{ route('manage') }}"
