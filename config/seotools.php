@@ -9,7 +9,7 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "Trustinvesting USA", // set false to total remove
+            'title'        => "trustinvesting usa", // set false to total remove
             'titleBefore'  => '2021', // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
             'description'  => 'Inversiones en criptoactivos', // set false to total remove
             'separator'    => ' - ',
@@ -36,7 +36,7 @@ return [
          * The default configurations to be used by the opengraph generator.
          */
         'defaults' => [
-            'title'       => 'Trustinvesting USA', // set false to total remove
+            'title'       => 'trustinvesting usa', // set false to total remove
             'description' => 'Inversiones en Criptoactivos', // set false to total remove
             'url'         => 'https://www.trustinvesting.us', // Set null for using Url::current(), set false to total remove
             'type'        => false,
